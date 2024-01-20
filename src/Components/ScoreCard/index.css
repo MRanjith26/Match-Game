@@ -98,6 +98,7 @@
     background-size: cover;
     height: 790px;
     width: 650px;
+    margin-bottom: 30px;
   }
   .trophy-img {
     margin-top: 30px;
@@ -114,18 +115,19 @@
   }
   .reset-button {
     padding: 5px 15px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .score-card {
     background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
     background-size: cover;
-    height: 900px;
-    width: 850px;
+    width: 80%;
+    margin-bottom: 40px;
   }
   .trophy-img {
     margin-top: 60px;
-    height: 350px;
+    height: 200px;
   }
   .reset-img {
     width: 20px;
@@ -134,9 +136,10 @@
     font-size: 35px;
   }
   .score-count {
-    font-size: 40px;
+    font-size: 50px;
   }
   .reset-button {
     padding: 10px 25px;
+    font-size: 20px;
   }
 }
