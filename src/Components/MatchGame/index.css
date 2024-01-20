@@ -1,0 +1,55 @@
+.nav-container {
+  padding: 0px;
+  background-color: #2c0e3a;
+  margin: 0px;
+}
+.match-game-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.image-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 25px 0px;
+}
+.thumbnails-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 576px), (min-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+}

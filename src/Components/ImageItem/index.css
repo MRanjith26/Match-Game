@@ -1,0 +1,22 @@
+.img-item {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  margin: 0px;
+}
+@media screen and (max-width: 576px), (min-width: 576px) {
+  .main-image {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .main-image {
+    width: 80%;
+  }
+}

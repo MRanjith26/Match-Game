@@ -1,0 +1,23 @@
+.tab-item {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.button {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: inherit;
+  border: none;
+  padding: 10px 15px;
+  margin: 0px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-btn {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+  font-weight: 550;
+}
